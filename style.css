@@ -820,12 +820,106 @@ border: 1px solid #D7DADD;
 border-radius: 4px;
 }
 
-form {
+.mailinglist {
     margin-top: 60px;
 }
 
 
 .footer {
     height: 338px;
+    padding-top: 80px;
+    padding-bottom: 60px;
     background-color:#1E212C;
+}
+
+.createx-text {
+font-weight: 400;
+font-size: 12px;
+color: #FFFFFF;
+opacity: 0.6;
+}
+
+.social-media a img {
+    height: 20px;
+    width: 20px;
+}
+
+.footer li a{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+color: #FFFFFF;
+opacity: 0.6;
+}
+.footer li {
+    margin-top: 8px;
+}
+
+.footer h6 {
+    color: #FFFFFF;
+    margin-bottom: 12px;
+
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-company {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.small {
+padding-left: 12px;
+width: 286px;
+height: 36px;
+
+
+background: rgba(255, 255, 255, 0.12);
+border: 1px solid rgba(255, 255, 255, 0.2);
+border-radius: 4px;
+}
+
+form {
+    margin-top: 24px;
+    position: relative;
+}
+
+.emailbtn {
+    position: absolute;
+
+left: 90%;
+    top: 27.09%;
+    bottom: 27.08%;
+    border: none;
+    background: none;
+}
+
+.form-descr {
+margin-top: 12px;
+font-weight: 400;
+font-size: 10px;
+line-height: 150%;
+color: #FFFFFF;
+}
+
+.telephone::before {
+    content: url("img/svg/contact/Rectangle.svg");
+    margin-right: 9px;
+}
+
+.mail::before {
+    content: url("img/svg/contact/Union.svg");
+    margin-right: 8px;
 }
