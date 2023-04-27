@@ -305,6 +305,9 @@ li {
     align-items: normal;
 }
 
+.text-li {
+    width: 400px;
+}
 
 .question {
     margin-top: 8px;
@@ -412,7 +415,6 @@ color: #FF4242;
     display: flex;
     flex-flow: column wrap;
     height: 732px;
-    width: 1320px;
 }
 
 .management {
@@ -484,6 +486,7 @@ color: #424551;
 
 .urna {
     margin-top: 24px;
+    width: 500px;
 }
 
 .events {
@@ -528,6 +531,8 @@ margin-right: 20px;
 
 .raspisan {
     margin-top: 60px;
+    display: flex;
+    flex-direction: column;
 }
 
 .src {
@@ -557,19 +562,30 @@ margin-right: 20px;
     height: 500px;
 }
 
+.sertificate-text {
+    width: 390px;
+}
+
 .copmanies {
     margin-top: 25px;
 }
 
 .team {
     background: #F4F5F7;
-    height: 1570px;
+    height: 2070px;
 }
 
 .team-info {
     padding-top: 166px;
 }
 
+.card-teacher {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
 
 .teacher-photo {
     background-color: #FFCF2D;
@@ -577,6 +593,8 @@ margin-right: 20px;
     Height:340px;
     align-items: flex-end;
     position: relative;
+    justify-content: center;
+    
 }
 
 .teacher-photo img {
@@ -607,16 +625,21 @@ margin-right: 20px;
     width: 48px;
     background-color: #FF3F3A;
     border-radius: 50%;
-    margin-left: 15px;
 }
 
 .cirkle-arrow img {
     rotate: 180deg;
 }
 
+.teach {
+    width: 40%;
+}
+
 .teacher-list {
+    align-items: normal;
     justify-content: space-around;
     margin-top: 48px;
+flex-wrap: wrap;
 }
 
 .social {
@@ -803,6 +826,7 @@ color: #1E212C;
 
 .subscribe-createx {
     text-align: center;
+    width: 800px;
 }
 
 .sub {
@@ -907,6 +931,7 @@ left: 90%;
 }
 
 .form-descr {
+    width: 286px;
 margin-top: 12px;
 font-weight: 400;
 font-size: 10px;
@@ -922,4 +947,221 @@ color: #FFFFFF;
 .mail::before {
     content: url("img/svg/contact/Union.svg");
     margin-right: 8px;
+}
+
+.createx-text {
+    width: 279px;
+}
+
+@media (max-width: 1580px) {
+    .wrapper {
+        width: 95%;
+    }
+    /* .teacher-photo {
+        width: 249px;
+        height: 300px;
+    }
+    .teacher-job {
+        width: 249px;
+    } */
+}
+
+@media (max-width: 1280px) {
+    .card {
+        width: 560px;
+    }
+
+
+
+    .timetable {
+        width: 1000px;
+    }
+
+    .timemonth {
+        width: 100px;
+        margin-right: 10px;
+    }
+
+    .blog-card {
+        width: 300px;
+    }
+    .blog-card .imgblog {
+        width: 300px;
+    }
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 38px;
+    }
+
+    .navbar-btn {
+        display: none;
+    }
+
+    .main-text {
+        font-size: 45px;
+    }
+    .main-svg img {
+        width: 480px;
+    }
+    .main-svg {
+        width: 480px;
+    }
+    .large-button-font {
+        line-height: normal;
+        width: 100px;
+        margin-right: 10px;
+    }
+    
+    .navbar-login {
+        justify-content: center;
+    }
+
+    .logo {
+        width: 150px;
+    }
+    .photo {
+        width: 400px;
+    }
+
+    .photo img {
+        width: 400px;
+    }
+
+    .who {
+        align-items: center;
+        justify-content: space-around;
+    }
+    .card-list {
+        height: 1500px;
+        width: 800px;
+    }
+
+    .media {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .practicem {
+        width: 350px;
+    }
+
+    .practicem img {
+        width: 350px;
+    }
+
+    .timetable {
+        width: 700px;
+    }
+    .timemonth {
+        width: 100px;
+        margin-right: 10px;
+    }
+
+    .sertificate-photo {
+        width: 500px;
+    }
+
+    .sertificate-photo img {
+        width: 500px;
+        height: 354px;
+    }
+
+    .sertificates {
+        height: 500px;
+    }
+
+    .teacher-photo {
+        width: 200px;
+        height: 250px;
+    }
+
+    .teacher-photo img{
+        width: 200px;
+        height: 250px;
+    }
+    .teacher-job {
+        width: 200px;
+    }
+
+    .blog-card {
+        width: 240px;
+    }
+    .blog-card .imgblog {
+        width: 240px;
+    }
+
+    .comments {
+        width: 700px;
+        padding: 32px 50px 32px 80px;
+    }
+
+    .urna {
+        width: 350px;
+    }
+    .cirkle-arrow{
+        margin-left: 10px;
+    }
+
+    .elipse-mini {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-svg img {
+        width: 360px;
+    }
+    .main-svg {
+        width: 360px;
+    }
+
+
+    .navbar-login {
+        justify-content: end;
+    }
+
+    .photo {
+        width: 320px;
+    }
+
+    .photo img {
+        width: 320px;
+    }
+
+    .teacher-buttons{
+        display: none;
+    }
+
+    .sertificate-photo {
+        width: 400px;
+    }
+
+    .sertificate-photo img {
+        width: 400px;
+        height: 283px;
+    }
+
+    /* .teacher-photo {
+        width: 150px;
+        height: 200px;
+    }
+
+    .teacher-photo img{
+        width: 200px;
+        height: 250px;
+    } */
+
+    .teacher-name {
+        font-size: 16px;
+    }
+    .teacher-job {
+        font-size: 10px;
+    }
+    
 }
